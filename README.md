@@ -6,7 +6,7 @@ Your task is to process the triangle mesh that is loaded from a model file in th
 
 I have tried to make the sample program as complete as possible (regarding the rendering components) so that you can focus on mesh manipulation.
 
-## Due: Sunday November 10th, 11:59pm
+## Due: Monday November 11th, 11:59pm
 
 ## Overview 
 
@@ -15,10 +15,10 @@ The assignment requires you to do two things:
 2. subdivide the surface into a smoother surface when the user clicks a button (a mesh could be subdivided repeatedly)
 
 To display a model, you need to
-1. convert the model arrays returned by the loader into a format suitable for rendering with WebGL
-2. build the vertex corner/opposite tables as discussed in class and in Jarek's notes, and implement the corner table functions
-3. use the corner table to compute a vertex normal for each vertex, based on the surface normals of the triangles that use it   
-4. create a random color for each vertex so that the structure of the mesh is obvious
+1. convert the model arrays returned by the loader into a format suitable for rendering with WebGL (done for you in sample code)
+2. build the vertex corner/opposite tables as discussed in class and in Jarek's notes, and implement the corner table functions (you must implement this)
+3. use the corner table to compute a vertex normal for each vertex, based on the surface normals of the triangles that use it (you must implement this; the sample code computes normals a different way)
+4. create a random color for each vertex so that the structure of the mesh is obvious (done for you in sample code)
 
 You should submit the full project, as in the previous assignments.  
 
